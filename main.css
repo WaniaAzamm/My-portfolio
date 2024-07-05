@@ -1,0 +1,139 @@
+body {
+  background-color: rgb(5, 5, 55);
+}
+
+.topnav {
+  background-color: rgba(8, 8, 84, 0.78);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 49px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Impact,
+    Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  font-style: inherit;
+}
+
+.topnav a:hover {
+  background-color: rgb(19, 0, 146);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a:active {
+  background-color: rgb(44, 42, 156);
+  color: white;
+}
+
+.topnav .name {
+  float: left;
+  animation: fadeIn 3.5s ease-in-out infinite iteration-count direction
+    fill-mode;
+}
+
+img {
+  float: left;
+  width: 398px;
+  border-radius: 403px;
+  padding: 27px;
+  margin: 63px 53px;
+}
+
+.home {
+  float: right;
+  color: white;
+  font-weight: bolder;
+  margin: -526px -12px;
+  padding: 89px;
+  font-size: 47px;
+}
+
+#about {
+  clear: both;
+  padding: 50px;
+}
+
+#about h1 {
+  color: white;
+  font-size: 65px;
+  text-align: left;
+  margin-bottom: 74px;
+  padding: -4%;
+}
+
+#about p {
+  color: rgb(255, 255, 255);
+  font-size: 31px;
+  font-weight: bolder;
+  text-align: left;
+  padding: 42px;
+  margin: 91px -30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#Skills h1 {
+  width: 3px;
+  font-size: 2px;
+  color: white;
+  font-weight: bolder;
+  padding: 0%;
+  margin: 0;
+}
+#contact h1 {
+  color: white;
+  font-size: 65px;
+  text-align: left;
+  margin: 60px;
+  padding: 0%;
+}
+#projects a {
+  color: white;
+  background-color: rgba(8, 8, 84, 0.78);
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: nonmal;
+  margin: 9;
+  padding: auto;
+}
+form label {
+  font-size: 3.5em;
+  display: block;
+  margin-bottom: 0.5em;
+  color: white;
+  font-family: monospace;
+  margin: 15px 64px;
+  font-weight: bolder;
+}
+form input,
+form textarea {
+  width: 81%;
+  padding: 2em;
+  margin: 1em 39px;
+  border: 4px solid #0b2552;
+  border-radius: 29px;
+  font-size: 1.5em;
+}
+form input[type="submit"] {
+  background-color: #173590;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  transition: background-color 0.3s;
+  font-weight: bolder;
+  margin: 62px 576px;
+  padding: 20px;
+  width: 365px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #092379;
+}
